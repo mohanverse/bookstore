@@ -40,11 +40,11 @@ const Home = () => {
                     {books.map((book) => (
                         <div
                             key={book._id}
-                            className='border border-gray-300 p-2 rounded-md hover:shadow-lg'
+                            className='border border-gray-300 p-2 rounded-md shadow-2xl'
                         >
                             <img
                                 src={book.imageUrl}
-                                className='w-full h-96 object-cover' />
+                                className='w-full h-[500px] object-cover' />
                             <p className='text-gray-500'>{book.author}</p>
                             <div className='flex justify-between items-center'>
                                 <h1 className='text-xl font-bold'>{book.title}</h1>
