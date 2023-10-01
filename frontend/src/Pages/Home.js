@@ -27,7 +27,7 @@ const Home = () => {
 
     return (
         <div className='p-4 font-serif'>
-            <div className='flex justify-between mb-10'>
+            <div className='flex justify-between mb-10 saddow-2xl'>
                 <h1 className='text-3xl font-bold font-serif'>All Books</h1>
                 <Link to='/books/create'>
                     <BiSolidMessageAltAdd className='text-4xl' />
@@ -47,7 +47,7 @@ const Home = () => {
                                 className='w-full h-[500px] object-cover' />
                             <p className='text-gray-500'>{book.author}</p>
                             <div className='flex justify-between items-center'>
-                                <h1 className='text-xl font-bold'>{book.title}</h1>
+                                <h1 className=''>{book.title}</h1>
                                 <p className='text-gray-500'>{book.publishYear}</p>
                             </div>
                             <div className='flex justify-between items-center p-2 text-2xl'>
