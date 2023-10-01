@@ -31,7 +31,7 @@ const ShowSingleBook = () => {
       ) : (
         <div className='flex flex-col border-2 border-sky-400 rounded-xl w-fit p-4'>
           <div className='my-4'>
-            <img src={book.imageUrl}className='' />
+            <img src={book.imageUrl} className='w-full' />
           </div>
           <div className='my-4'>
             <span className='text-xl mr-4 text-gray-500'>Id</span>
